@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>영상</title>
+    <style>
+      ul,
+      li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .video-list {
+        display: grid;
+        grid-template-columns: (3reepeat, 390px);
+        grid-template-areas: "a b c";
+        gap: 10px;
+      }
+      .video-list li {
+        text-align: center;
+        border: 1px solid black;
+        background: #dccebf;
+        padding: 5px;
+        margin: 0 auto;
+      }
+      .video,
+      img {
+        border: 1px solid black;
+        width: 390px;
+        height: 700px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <ul class="video-list">
+      <li>
+        <h3>시작 화면</h3>
+        <video class="video" autoplay muted loop playbackRate="1">
+          <source type="video/mp4" src="videos/시작 화면.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>회원가입 페이지</h3>
+        <video class="video" autoplay muted loop playbackRate="8">
+          <source type="video/mp4" src="videos/회원가입 페이지.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>회원가입 프로필 설정 페이지</h3>
+        <video class="video" autoplay muted loop playbackRate="8">
+          <source
+            type="video/mp4"
+            src="videos/회원가입 프로필 설정 페이지.mov"
+          />
+        </video>
+      </li>
+      <li>
+        <h3>로그인 페이지</h3>
+        <video class="video" autoplay muted loop playbackRate="8">
+          <source type="video/mp4" src="videos/로그인 페이지.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>피드 페이지</h3>
+        <video class="video" autoplay muted loop playbackRate="8">
+          <source type="video/mp4" src="videos/피드 페이지.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>검색 페이지</h3>
+        <img src="./videos/검색 페이지.png" />
+      </li>
+      <li>
+        <h3>채팅 페이지</h3>
+        <video class="video" autoplay muted loop playbackRate="8">
+          <source type="video/mp4" src="videos/채팅 페이지.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>게시글 상세 페이지</h3>
+        <video class="video" autoplay muted loop playbackRate="8">
+          <source type="video/mp4" src="videos/게시글 상세 페이지.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>게시글 삭제 기능</h3>
+        <video class="video" autoplay muted loop playbackRate="8">
+          <source type="video/mp4" src="videos/게시글 삭제 기능.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>게시글 신고 기능</h3>
+        <video class="video" autoplay muted loop playbackRate="8">
+          <source type="video/mp4" src="videos/게시글 신고.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>댓글 기능</h3>
+        <video class="video" autoplay muted loop playbackRate="8">
+          <source type="video/mp4" src="videos/댓글 기능.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>마이 프로필 페이지</h3>
+        <video class="video" autoplay muted loop playbackRate="8">
+          <source type="video/mp4" src="videos/마이 프로필 페이지.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>유어 프로필 페이지</h3>
+        <video class="video" autoplay muted playbackRate="8">
+          <source type="video/mp4" src="videos/유어 프로필 페이지.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>리스트/앨범으로 보기</h3>
+        <video class="video" autoplay muted playbackRate="8">
+          <source type="video/mp4" src="videos/리스트앨범으로보기.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>프로필 수정 페이지</h3>
+        <video class="video" autoplay muted playbackRate="8">
+          <source type="video/mp4" src="videos/프로필 수정 페이지.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>팔로워/팔로잉 페이지</h3>
+        <video class="video" autoplay muted playbackRate="8">
+          <source type="video/mp4" src="videos/팔로워팔로잉 페이지.mov" />
+        </video>
+      </li>
+      <li>
+        <h3>로그아웃 기능</h3>
+        <video class="video" autoplay muted playbackRate="8">
+          <source type="video/mp4" src="videos/로그아웃 기능.mov" />
+        </video>
+      </li>
+    </ul>
+  </body>
+</html>
